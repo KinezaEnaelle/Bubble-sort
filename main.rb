@@ -30,4 +30,4 @@ def bubble_sort_by(array)
   array
 end
 arr = [1, 5, 3, 6, 2, 4, 1]
-print bubble_sort_by(arr) { |arg1, arg2| arg1.length > arg2.length }
+print bubble_sort_by(arr) { |arg1, arg2| arg1. > arg2. }

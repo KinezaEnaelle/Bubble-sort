@@ -18,7 +18,7 @@ def bubble_sort_by(array)
   loop do
     swap = false
     (n - 1).times do |i|
-      if yield(array[i], array[i + 1]).positive?
+      if yield(array[i], array[i + 1]) >= 0
         array[i], array[i + 1] = array[i + 1], array[i]
         swap = true
       end

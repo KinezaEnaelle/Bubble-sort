@@ -17,7 +17,6 @@ arr = [6, 4, 2, 1, 3]
 print bubble_sort(arr)
 
 def bubble_sort_by(array)
-  array = []
   each do |elem|
     array << yield(elem)
   end

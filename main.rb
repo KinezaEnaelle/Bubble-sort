@@ -13,7 +13,6 @@ def bubble_sort(array)
   array
 end
 
-
 def bubble_sort_by(array)
   n = array.length
   loop do
@@ -28,4 +27,3 @@ def bubble_sort_by(array)
   end
   array
 end
-

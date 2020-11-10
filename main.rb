@@ -14,7 +14,6 @@ def bubble_sort(array)
   end
   array
 end
-
 arr = [6, 4, 2, 1, 3]
 print bubble_sort(arr)
 
@@ -35,7 +34,6 @@ def bubble_sort_by(array)
   end
   array
 end
-
 arr = [6, 4, 2, 1, 3]
 arr.bubble_sort_by do |elem|
   elem

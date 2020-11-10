@@ -1,12 +1,18 @@
-def bubble_sort
-    bubble_array = []
-    self.each do |elem|
-        bubble_array << yield (elem)
-    end
-    len = bubble_array.length
-    for i in 1. .len
-        if bubble_array [i] > bubble_array [i+1] then
-            bubble_array [i], bubble_array [i+1] = bubble_array [i+1], bubble_array [i]
+
+def bubble_sort(array)
+    n = array.length
+    i = 0
+    loop do
+      swap = false
+      (n-1).times do|i|
+        if array[i] > array[i+1]
+          array[i], array[i+1] = array[i+1], array[i]
+          swap = true
         end
     end
-end
+    break if not swap
+  end
+  array
+  end
+  arr = [6,4,2,1,3]
+  print bubble_sort(arr)

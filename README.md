@@ -2,7 +2,11 @@
 
 # Advanced building blocks-bubble sort
 
+<<<<<<< HEAD
 > Implements bubble sort algorithm using loop and passing a block to a method
+=======
+> Implements bubble sort algorithm using loop, yield and passing a block to a method
+>>>>>>> e3b896c8b89ed7219ea693163e311e0492c31975
 
 ## Built With
 
